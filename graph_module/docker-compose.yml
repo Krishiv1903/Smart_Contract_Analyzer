@@ -1,0 +1,26 @@
+version: "3.13"
+
+services:
+
+  legal-knowledge-graph:
+
+    build: .
+
+    container_name: legal_knowledge_graph
+
+    restart: no
+
+    env_file:
+      - .env
+
+    volumes:
+      - ./input:/app/input
+      - ./output:/app/output
+      - ./logs:/app/logs
+      - ./prompts:/app/prompts
+
+    ports:
+      - "8080:8080"
+
+    stdin_open: true
+    tty: true

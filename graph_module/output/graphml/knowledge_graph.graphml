@@ -1,0 +1,276 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d3" for="edge" attr.name="relation" attr.type="string"/>
+<key id="d2" for="node" attr.name="title" attr.type="string"/>
+<key id="d1" for="node" attr.name="type" attr.type="string"/>
+<key id="d0" for="node" attr.name="label" attr.type="string"/>
+<graph edgedefault="directed"><node id="C1">
+  <data key="d0">Acceptance</data>
+  <data key="d1">CLAUSE</data>
+  <data key="d2">By creating an account, the user agrees to these Terms and Conditions.</data>
+</node>
+<node id="C2">
+  <data key="d0">Account</data>
+  <data key="d1">CLAUSE</data>
+  <data key="d2">The user must provide accurate information while creating an account.</data>
+</node>
+<node id="C3">
+  <data key="d0">Payments</data>
+  <data key="d1">CLAUSE</data>
+  <data key="d2">Subscription fees must be paid within 30 days of receiving the invoice.</data>
+</node>
+<node id="C4">
+  <data key="d0">Refund</data>
+  <data key="d1">CLAUSE</data>
+  <data key="d2">Refunds are available only under the conditions described in Clause C3.</data>
+</node>
+<node id="C5">
+  <data key="d0">Privacy</data>
+  <data key="d1">CLAUSE</data>
+  <data key="d2">We collect personal information according to our Privacy Policy.</data>
+</node>
+<node id="C6">
+  <data key="d0">Data Sharing</data>
+  <data key="d1">CLAUSE</data>
+  <data key="d2">Personal information may be shared with third-party service providers as described in Clause C5.</data>
+</node>
+<node id="C7">
+  <data key="d0">Termination</data>
+  <data key="d1">CLAUSE</data>
+  <data key="d2">We may terminate your account if you violate these Terms or fail to comply with Clause C2.</data>
+</node>
+<node id="C8">
+  <data key="d0">User Obligations</data>
+  <data key="d1">CLAUSE</data>
+  <data key="d2">The user shall not misuse the service or attempt unauthorized access.</data>
+</node>
+<node id="C9">
+  <data key="d0">Limitation of Liability</data>
+  <data key="d1">CLAUSE</data>
+  <data key="d2">Our liability shall not exceed the amount paid by the user during the previous twelve months.</data>
+</node>
+<node id="C10">
+  <data key="d0">Changes</data>
+  <data key="d1">CLAUSE</data>
+  <data key="d2">We may modify these Terms at any time. Continued use of the service constitutes acceptance of the updated Terms.</data>
+</node>
+<node id="SPACY_1">
+  <data key="d0">the previous twelve months</data>
+  <data key="d1">DATE</data>
+</node>
+<node id="E1">
+  <data key="d0">We</data>
+  <data key="d1">PARTY</data>
+</node>
+<node id="E2">
+  <data key="d0">modify</data>
+  <data key="d1">ACTION</data>
+</node>
+<node id="E3">
+  <data key="d0">Terms</data>
+  <data key="d1">DEFINED_TERM</data>
+</node>
+<node id="REGEX_1">
+  <data key="d0">days</data>
+  <data key="d1">DURATION</data>
+</node>
+<node id="E4">
+  <data key="d0">service</data>
+  <data key="d1">SERVICE</data>
+</node>
+<node id="SPACY_2">
+  <data key="d0">Clause C5</data>
+  <data key="d1">FAC</data>
+</node>
+<node id="E5">
+  <data key="d0">use</data>
+  <data key="d1">ACTION</data>
+</node>
+<node id="E6">
+  <data key="d0">Continued use</data>
+  <data key="d1">CONDITION</data>
+</node>
+<node id="E7">
+  <data key="d0">User</data>
+  <data key="d1">PARTY</data>
+</node>
+<edge source="C1" target="SPACY_1">
+  <data key="d3">HAS_ENTITY</data>
+</edge>
+<edge source="C1" target="E1">
+  <data key="d3">HAS_ENTITY</data>
+</edge>
+<edge source="C1" target="E2">
+  <data key="d3">HAS_ENTITY</data>
+</edge>
+<edge source="C1" target="E3">
+  <data key="d3">HAS_ENTITY</data>
+</edge>
+<edge source="C2" target="E1">
+  <data key="d3">HAS_ENTITY</data>
+</edge>
+<edge source="C2" target="E2">
+  <data key="d3">HAS_ENTITY</data>
+</edge>
+<edge source="C2" target="E3">
+  <data key="d3">HAS_ENTITY</data>
+</edge>
+<edge source="C3" target="REGEX_1">
+  <data key="d3">HAS_ENTITY</data>
+</edge>
+<edge source="C3" target="SPACY_1">
+  <data key="d3">HAS_ENTITY</data>
+</edge>
+<edge source="C3" target="E1">
+  <data key="d3">HAS_ENTITY</data>
+</edge>
+<edge source="C3" target="E2">
+  <data key="d3">HAS_ENTITY</data>
+</edge>
+<edge source="C3" target="E3">
+  <data key="d3">HAS_ENTITY</data>
+</edge>
+<edge source="C3" target="E4">
+  <data key="d3">HAS_ENTITY</data>
+</edge>
+<edge source="C4" target="SPACY_1">
+  <data key="d3">HAS_ENTITY</data>
+</edge>
+<edge source="C4" target="E1">
+  <data key="d3">HAS_ENTITY</data>
+</edge>
+<edge source="C4" target="E2">
+  <data key="d3">HAS_ENTITY</data>
+</edge>
+<edge source="C4" target="E3">
+  <data key="d3">HAS_ENTITY</data>
+</edge>
+<edge source="C4" target="C5">
+  <data key="d3">DEPENDS_ON</data>
+</edge>
+<edge source="C4" target="C6">
+  <data key="d3">DEPENDS_ON</data>
+</edge>
+<edge source="C4" target="C7">
+  <data key="d3">DEPENDS_ON</data>
+</edge>
+<edge source="C4" target="C8">
+  <data key="d3">DEPENDS_ON</data>
+</edge>
+<edge source="C4" target="C9">
+  <data key="d3">DEPENDS_ON</data>
+</edge>
+<edge source="C4" target="C10">
+  <data key="d3">DEPENDS_ON</data>
+</edge>
+<edge source="C5" target="SPACY_1">
+  <data key="d3">HAS_ENTITY</data>
+</edge>
+<edge source="C5" target="E1">
+  <data key="d3">HAS_ENTITY</data>
+</edge>
+<edge source="C5" target="E2">
+  <data key="d3">HAS_ENTITY</data>
+</edge>
+<edge source="C5" target="C6">
+  <data key="d3">REFERENCES</data>
+</edge>
+<edge source="C5" target="C7">
+  <data key="d3">REFERENCES</data>
+</edge>
+<edge source="C5" target="C8">
+  <data key="d3">REFERENCES</data>
+</edge>
+<edge source="C5" target="C9">
+  <data key="d3">REFERENCES</data>
+</edge>
+<edge source="C5" target="C10">
+  <data key="d3">REFERENCES</data>
+</edge>
+<edge source="C6" target="SPACY_1">
+  <data key="d3">HAS_ENTITY</data>
+</edge>
+<edge source="C6" target="SPACY_2">
+  <data key="d3">HAS_ENTITY</data>
+</edge>
+<edge source="C6" target="E1">
+  <data key="d3">HAS_ENTITY</data>
+</edge>
+<edge source="C6" target="E2">
+  <data key="d3">HAS_ENTITY</data>
+</edge>
+<edge source="C6" target="E3">
+  <data key="d3">HAS_ENTITY</data>
+</edge>
+<edge source="C6" target="E4">
+  <data key="d3">HAS_ENTITY</data>
+</edge>
+<edge source="C6" target="E5">
+  <data key="d3">HAS_ENTITY</data>
+</edge>
+<edge source="C7" target="E1">
+  <data key="d3">HAS_ENTITY</data>
+</edge>
+<edge source="C7" target="E2">
+  <data key="d3">HAS_ENTITY</data>
+</edge>
+<edge source="C7" target="E3">
+  <data key="d3">HAS_ENTITY</data>
+</edge>
+<edge source="C7" target="E4">
+  <data key="d3">HAS_ENTITY</data>
+</edge>
+<edge source="C7" target="E5">
+  <data key="d3">HAS_ENTITY</data>
+</edge>
+<edge source="C7" target="E6">
+  <data key="d3">HAS_ENTITY</data>
+</edge>
+<edge source="C8" target="E1">
+  <data key="d3">HAS_ENTITY</data>
+</edge>
+<edge source="C8" target="E2">
+  <data key="d3">HAS_ENTITY</data>
+</edge>
+<edge source="C8" target="E3">
+  <data key="d3">HAS_ENTITY</data>
+</edge>
+<edge source="C8" target="E4">
+  <data key="d3">HAS_ENTITY</data>
+</edge>
+<edge source="C9" target="SPACY_1">
+  <data key="d3">HAS_ENTITY</data>
+</edge>
+<edge source="C9" target="E1">
+  <data key="d3">HAS_ENTITY</data>
+</edge>
+<edge source="C9" target="E2">
+  <data key="d3">HAS_ENTITY</data>
+</edge>
+<edge source="C9" target="E3">
+  <data key="d3">HAS_ENTITY</data>
+</edge>
+<edge source="C9" target="E4">
+  <data key="d3">HAS_ENTITY</data>
+</edge>
+<edge source="C10" target="E1">
+  <data key="d3">HAS_ENTITY</data>
+</edge>
+<edge source="C10" target="E2">
+  <data key="d3">HAS_ENTITY</data>
+</edge>
+<edge source="C10" target="E3">
+  <data key="d3">HAS_ENTITY</data>
+</edge>
+<edge source="C10" target="E4">
+  <data key="d3">HAS_ENTITY</data>
+</edge>
+<edge source="C10" target="E5">
+  <data key="d3">HAS_ENTITY</data>
+</edge>
+<edge source="C10" target="E6">
+  <data key="d3">HAS_ENTITY</data>
+</edge>
+<edge source="C10" target="E7">
+  <data key="d3">HAS_ENTITY</data>
+</edge>
+</graph></graphml>

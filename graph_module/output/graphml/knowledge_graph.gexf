@@ -1,0 +1,429 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
+  <meta lastmodifieddate="2026-07-12">
+    <creator>NetworkX 3.5</creator>
+  </meta>
+  <graph defaultedgetype="directed" mode="static" name="">
+    <attributes mode="static" class="edge">
+      <attribute id="2" title="relation" type="string" />
+    </attributes>
+    <attributes mode="static" class="node">
+      <attribute id="0" title="type" type="string" />
+      <attribute id="1" title="title" type="string" />
+    </attributes>
+    <nodes>
+      <node id="C1" label="Acceptance">
+        <attvalues>
+          <attvalue for="0" value="CLAUSE" />
+          <attvalue for="1" value="By creating an account, the user agrees to these Terms and Conditions." />
+        </attvalues>
+      </node>
+      <node id="C2" label="Account">
+        <attvalues>
+          <attvalue for="0" value="CLAUSE" />
+          <attvalue for="1" value="The user must provide accurate information while creating an account." />
+        </attvalues>
+      </node>
+      <node id="C3" label="Payments">
+        <attvalues>
+          <attvalue for="0" value="CLAUSE" />
+          <attvalue for="1" value="Subscription fees must be paid within 30 days of receiving the invoice." />
+        </attvalues>
+      </node>
+      <node id="C4" label="Refund">
+        <attvalues>
+          <attvalue for="0" value="CLAUSE" />
+          <attvalue for="1" value="Refunds are available only under the conditions described in Clause C3." />
+        </attvalues>
+      </node>
+      <node id="C5" label="Privacy">
+        <attvalues>
+          <attvalue for="0" value="CLAUSE" />
+          <attvalue for="1" value="We collect personal information according to our Privacy Policy." />
+        </attvalues>
+      </node>
+      <node id="C6" label="Data Sharing">
+        <attvalues>
+          <attvalue for="0" value="CLAUSE" />
+          <attvalue for="1" value="Personal information may be shared with third-party service providers as described in Clause C5." />
+        </attvalues>
+      </node>
+      <node id="C7" label="Termination">
+        <attvalues>
+          <attvalue for="0" value="CLAUSE" />
+          <attvalue for="1" value="We may terminate your account if you violate these Terms or fail to comply with Clause C2." />
+        </attvalues>
+      </node>
+      <node id="C8" label="User Obligations">
+        <attvalues>
+          <attvalue for="0" value="CLAUSE" />
+          <attvalue for="1" value="The user shall not misuse the service or attempt unauthorized access." />
+        </attvalues>
+      </node>
+      <node id="C9" label="Limitation of Liability">
+        <attvalues>
+          <attvalue for="0" value="CLAUSE" />
+          <attvalue for="1" value="Our liability shall not exceed the amount paid by the user during the previous twelve months." />
+        </attvalues>
+      </node>
+      <node id="C10" label="Changes">
+        <attvalues>
+          <attvalue for="0" value="CLAUSE" />
+          <attvalue for="1" value="We may modify these Terms at any time. Continued use of the service constitutes acceptance of the updated Terms." />
+        </attvalues>
+      </node>
+      <node id="SPACY_1" label="the previous twelve months">
+        <attvalues>
+          <attvalue for="0" value="DATE" />
+        </attvalues>
+      </node>
+      <node id="E1" label="We">
+        <attvalues>
+          <attvalue for="0" value="PARTY" />
+        </attvalues>
+      </node>
+      <node id="E2" label="modify">
+        <attvalues>
+          <attvalue for="0" value="ACTION" />
+        </attvalues>
+      </node>
+      <node id="E3" label="Terms">
+        <attvalues>
+          <attvalue for="0" value="DEFINED_TERM" />
+        </attvalues>
+      </node>
+      <node id="REGEX_1" label="days">
+        <attvalues>
+          <attvalue for="0" value="DURATION" />
+        </attvalues>
+      </node>
+      <node id="E4" label="service">
+        <attvalues>
+          <attvalue for="0" value="SERVICE" />
+        </attvalues>
+      </node>
+      <node id="SPACY_2" label="Clause C5">
+        <attvalues>
+          <attvalue for="0" value="FAC" />
+        </attvalues>
+      </node>
+      <node id="E5" label="use">
+        <attvalues>
+          <attvalue for="0" value="ACTION" />
+        </attvalues>
+      </node>
+      <node id="E6" label="Continued use">
+        <attvalues>
+          <attvalue for="0" value="CONDITION" />
+        </attvalues>
+      </node>
+      <node id="E7" label="User">
+        <attvalues>
+          <attvalue for="0" value="PARTY" />
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge source="C1" target="SPACY_1" id="0">
+        <attvalues>
+          <attvalue for="2" value="HAS_ENTITY" />
+        </attvalues>
+      </edge>
+      <edge source="C1" target="E1" id="1">
+        <attvalues>
+          <attvalue for="2" value="HAS_ENTITY" />
+        </attvalues>
+      </edge>
+      <edge source="C1" target="E2" id="2">
+        <attvalues>
+          <attvalue for="2" value="HAS_ENTITY" />
+        </attvalues>
+      </edge>
+      <edge source="C1" target="E3" id="3">
+        <attvalues>
+          <attvalue for="2" value="HAS_ENTITY" />
+        </attvalues>
+      </edge>
+      <edge source="C2" target="E1" id="4">
+        <attvalues>
+          <attvalue for="2" value="HAS_ENTITY" />
+        </attvalues>
+      </edge>
+      <edge source="C2" target="E2" id="5">
+        <attvalues>
+          <attvalue for="2" value="HAS_ENTITY" />
+        </attvalues>
+      </edge>
+      <edge source="C2" target="E3" id="6">
+        <attvalues>
+          <attvalue for="2" value="HAS_ENTITY" />
+        </attvalues>
+      </edge>
+      <edge source="C3" target="REGEX_1" id="7">
+        <attvalues>
+          <attvalue for="2" value="HAS_ENTITY" />
+        </attvalues>
+      </edge>
+      <edge source="C3" target="SPACY_1" id="8">
+        <attvalues>
+          <attvalue for="2" value="HAS_ENTITY" />
+        </attvalues>
+      </edge>
+      <edge source="C3" target="E1" id="9">
+        <attvalues>
+          <attvalue for="2" value="HAS_ENTITY" />
+        </attvalues>
+      </edge>
+      <edge source="C3" target="E2" id="10">
+        <attvalues>
+          <attvalue for="2" value="HAS_ENTITY" />
+        </attvalues>
+      </edge>
+      <edge source="C3" target="E3" id="11">
+        <attvalues>
+          <attvalue for="2" value="HAS_ENTITY" />
+        </attvalues>
+      </edge>
+      <edge source="C3" target="E4" id="12">
+        <attvalues>
+          <attvalue for="2" value="HAS_ENTITY" />
+        </attvalues>
+      </edge>
+      <edge source="C4" target="SPACY_1" id="13">
+        <attvalues>
+          <attvalue for="2" value="HAS_ENTITY" />
+        </attvalues>
+      </edge>
+      <edge source="C4" target="E1" id="14">
+        <attvalues>
+          <attvalue for="2" value="HAS_ENTITY" />
+        </attvalues>
+      </edge>
+      <edge source="C4" target="E2" id="15">
+        <attvalues>
+          <attvalue for="2" value="HAS_ENTITY" />
+        </attvalues>
+      </edge>
+      <edge source="C4" target="E3" id="16">
+        <attvalues>
+          <attvalue for="2" value="HAS_ENTITY" />
+        </attvalues>
+      </edge>
+      <edge source="C4" target="C5" id="17">
+        <attvalues>
+          <attvalue for="2" value="DEPENDS_ON" />
+        </attvalues>
+      </edge>
+      <edge source="C4" target="C6" id="18">
+        <attvalues>
+          <attvalue for="2" value="DEPENDS_ON" />
+        </attvalues>
+      </edge>
+      <edge source="C4" target="C7" id="19">
+        <attvalues>
+          <attvalue for="2" value="DEPENDS_ON" />
+        </attvalues>
+      </edge>
+      <edge source="C4" target="C8" id="20">
+        <attvalues>
+          <attvalue for="2" value="DEPENDS_ON" />
+        </attvalues>
+      </edge>
+      <edge source="C4" target="C9" id="21">
+        <attvalues>
+          <attvalue for="2" value="DEPENDS_ON" />
+        </attvalues>
+      </edge>
+      <edge source="C4" target="C10" id="22">
+        <attvalues>
+          <attvalue for="2" value="DEPENDS_ON" />
+        </attvalues>
+      </edge>
+      <edge source="C5" target="SPACY_1" id="23">
+        <attvalues>
+          <attvalue for="2" value="HAS_ENTITY" />
+        </attvalues>
+      </edge>
+      <edge source="C5" target="E1" id="24">
+        <attvalues>
+          <attvalue for="2" value="HAS_ENTITY" />
+        </attvalues>
+      </edge>
+      <edge source="C5" target="E2" id="25">
+        <attvalues>
+          <attvalue for="2" value="HAS_ENTITY" />
+        </attvalues>
+      </edge>
+      <edge source="C5" target="C6" id="26">
+        <attvalues>
+          <attvalue for="2" value="REFERENCES" />
+        </attvalues>
+      </edge>
+      <edge source="C5" target="C7" id="27">
+        <attvalues>
+          <attvalue for="2" value="REFERENCES" />
+        </attvalues>
+      </edge>
+      <edge source="C5" target="C8" id="28">
+        <attvalues>
+          <attvalue for="2" value="REFERENCES" />
+        </attvalues>
+      </edge>
+      <edge source="C5" target="C9" id="29">
+        <attvalues>
+          <attvalue for="2" value="REFERENCES" />
+        </attvalues>
+      </edge>
+      <edge source="C5" target="C10" id="30">
+        <attvalues>
+          <attvalue for="2" value="REFERENCES" />
+        </attvalues>
+      </edge>
+      <edge source="C6" target="SPACY_1" id="31">
+        <attvalues>
+          <attvalue for="2" value="HAS_ENTITY" />
+        </attvalues>
+      </edge>
+      <edge source="C6" target="SPACY_2" id="32">
+        <attvalues>
+          <attvalue for="2" value="HAS_ENTITY" />
+        </attvalues>
+      </edge>
+      <edge source="C6" target="E1" id="33">
+        <attvalues>
+          <attvalue for="2" value="HAS_ENTITY" />
+        </attvalues>
+      </edge>
+      <edge source="C6" target="E2" id="34">
+        <attvalues>
+          <attvalue for="2" value="HAS_ENTITY" />
+        </attvalues>
+      </edge>
+      <edge source="C6" target="E3" id="35">
+        <attvalues>
+          <attvalue for="2" value="HAS_ENTITY" />
+        </attvalues>
+      </edge>
+      <edge source="C6" target="E4" id="36">
+        <attvalues>
+          <attvalue for="2" value="HAS_ENTITY" />
+        </attvalues>
+      </edge>
+      <edge source="C6" target="E5" id="37">
+        <attvalues>
+          <attvalue for="2" value="HAS_ENTITY" />
+        </attvalues>
+      </edge>
+      <edge source="C7" target="E1" id="38">
+        <attvalues>
+          <attvalue for="2" value="HAS_ENTITY" />
+        </attvalues>
+      </edge>
+      <edge source="C7" target="E2" id="39">
+        <attvalues>
+          <attvalue for="2" value="HAS_ENTITY" />
+        </attvalues>
+      </edge>
+      <edge source="C7" target="E3" id="40">
+        <attvalues>
+          <attvalue for="2" value="HAS_ENTITY" />
+        </attvalues>
+      </edge>
+      <edge source="C7" target="E4" id="41">
+        <attvalues>
+          <attvalue for="2" value="HAS_ENTITY" />
+        </attvalues>
+      </edge>
+      <edge source="C7" target="E5" id="42">
+        <attvalues>
+          <attvalue for="2" value="HAS_ENTITY" />
+        </attvalues>
+      </edge>
+      <edge source="C7" target="E6" id="43">
+        <attvalues>
+          <attvalue for="2" value="HAS_ENTITY" />
+        </attvalues>
+      </edge>
+      <edge source="C8" target="E1" id="44">
+        <attvalues>
+          <attvalue for="2" value="HAS_ENTITY" />
+        </attvalues>
+      </edge>
+      <edge source="C8" target="E2" id="45">
+        <attvalues>
+          <attvalue for="2" value="HAS_ENTITY" />
+        </attvalues>
+      </edge>
+      <edge source="C8" target="E3" id="46">
+        <attvalues>
+          <attvalue for="2" value="HAS_ENTITY" />
+        </attvalues>
+      </edge>
+      <edge source="C8" target="E4" id="47">
+        <attvalues>
+          <attvalue for="2" value="HAS_ENTITY" />
+        </attvalues>
+      </edge>
+      <edge source="C9" target="SPACY_1" id="48">
+        <attvalues>
+          <attvalue for="2" value="HAS_ENTITY" />
+        </attvalues>
+      </edge>
+      <edge source="C9" target="E1" id="49">
+        <attvalues>
+          <attvalue for="2" value="HAS_ENTITY" />
+        </attvalues>
+      </edge>
+      <edge source="C9" target="E2" id="50">
+        <attvalues>
+          <attvalue for="2" value="HAS_ENTITY" />
+        </attvalues>
+      </edge>
+      <edge source="C9" target="E3" id="51">
+        <attvalues>
+          <attvalue for="2" value="HAS_ENTITY" />
+        </attvalues>
+      </edge>
+      <edge source="C9" target="E4" id="52">
+        <attvalues>
+          <attvalue for="2" value="HAS_ENTITY" />
+        </attvalues>
+      </edge>
+      <edge source="C10" target="E1" id="53">
+        <attvalues>
+          <attvalue for="2" value="HAS_ENTITY" />
+        </attvalues>
+      </edge>
+      <edge source="C10" target="E2" id="54">
+        <attvalues>
+          <attvalue for="2" value="HAS_ENTITY" />
+        </attvalues>
+      </edge>
+      <edge source="C10" target="E3" id="55">
+        <attvalues>
+          <attvalue for="2" value="HAS_ENTITY" />
+        </attvalues>
+      </edge>
+      <edge source="C10" target="E4" id="56">
+        <attvalues>
+          <attvalue for="2" value="HAS_ENTITY" />
+        </attvalues>
+      </edge>
+      <edge source="C10" target="E5" id="57">
+        <attvalues>
+          <attvalue for="2" value="HAS_ENTITY" />
+        </attvalues>
+      </edge>
+      <edge source="C10" target="E6" id="58">
+        <attvalues>
+          <attvalue for="2" value="HAS_ENTITY" />
+        </attvalues>
+      </edge>
+      <edge source="C10" target="E7" id="59">
+        <attvalues>
+          <attvalue for="2" value="HAS_ENTITY" />
+        </attvalues>
+      </edge>
+    </edges>
+  </graph>
+</gexf>

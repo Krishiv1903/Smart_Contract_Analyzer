@@ -1,0 +1,669 @@
+{
+    "document_id": "DOC_001",
+    "created_at": "2026-07-12T07:22:43.948071",
+    "nodes": [
+        {
+            "id": "C1",
+            "label": "Acceptance",
+            "type": "CLAUSE",
+            "source_id": "C1",
+            "clause_id": "C1",
+            "metadata": {
+                "text": "By creating an account, the user agrees to these Terms and Conditions."
+            }
+        },
+        {
+            "id": "C2",
+            "label": "Account",
+            "type": "CLAUSE",
+            "source_id": "C2",
+            "clause_id": "C2",
+            "metadata": {
+                "text": "The user must provide accurate information while creating an account."
+            }
+        },
+        {
+            "id": "C3",
+            "label": "Payments",
+            "type": "CLAUSE",
+            "source_id": "C3",
+            "clause_id": "C3",
+            "metadata": {
+                "text": "Subscription fees must be paid within 30 days of receiving the invoice."
+            }
+        },
+        {
+            "id": "C4",
+            "label": "Refund",
+            "type": "CLAUSE",
+            "source_id": "C4",
+            "clause_id": "C4",
+            "metadata": {
+                "text": "Refunds are available only under the conditions described in Clause C3."
+            }
+        },
+        {
+            "id": "C5",
+            "label": "Privacy",
+            "type": "CLAUSE",
+            "source_id": "C5",
+            "clause_id": "C5",
+            "metadata": {
+                "text": "We collect personal information according to our Privacy Policy."
+            }
+        },
+        {
+            "id": "C6",
+            "label": "Data Sharing",
+            "type": "CLAUSE",
+            "source_id": "C6",
+            "clause_id": "C6",
+            "metadata": {
+                "text": "Personal information may be shared with third-party service providers as described in Clause C5."
+            }
+        },
+        {
+            "id": "C7",
+            "label": "Termination",
+            "type": "CLAUSE",
+            "source_id": "C7",
+            "clause_id": "C7",
+            "metadata": {
+                "text": "We may terminate your account if you violate these Terms or fail to comply with Clause C2."
+            }
+        },
+        {
+            "id": "C8",
+            "label": "User Obligations",
+            "type": "CLAUSE",
+            "source_id": "C8",
+            "clause_id": "C8",
+            "metadata": {
+                "text": "The user shall not misuse the service or attempt unauthorized access."
+            }
+        },
+        {
+            "id": "C9",
+            "label": "Limitation of Liability",
+            "type": "CLAUSE",
+            "source_id": "C9",
+            "clause_id": "C9",
+            "metadata": {
+                "text": "Our liability shall not exceed the amount paid by the user during the previous twelve months."
+            }
+        },
+        {
+            "id": "C10",
+            "label": "Changes",
+            "type": "CLAUSE",
+            "source_id": "C10",
+            "clause_id": "C10",
+            "metadata": {
+                "text": "We may modify these Terms at any time. Continued use of the service constitutes acceptance of the updated Terms."
+            }
+        },
+        {
+            "id": "SPACY_1",
+            "label": "Terms and Conditions",
+            "type": "ORG",
+            "source_id": "SPACY_1",
+            "clause_id": "C1",
+            "metadata": {}
+        },
+        {
+            "id": "E1",
+            "label": "user",
+            "type": "PARTY",
+            "source_id": "E1",
+            "clause_id": "C1",
+            "metadata": {}
+        },
+        {
+            "id": "E2",
+            "label": "creating an account",
+            "type": "ACTION",
+            "source_id": "E2",
+            "clause_id": "C1",
+            "metadata": {}
+        },
+        {
+            "id": "E3",
+            "label": "Terms and Conditions",
+            "type": "DEFINED_TERM",
+            "source_id": "E3",
+            "clause_id": "C1",
+            "metadata": {}
+        },
+        {
+            "id": "REGEX_1",
+            "label": "days",
+            "type": "DURATION",
+            "source_id": "REGEX_1",
+            "clause_id": "C3",
+            "metadata": {}
+        },
+        {
+            "id": "E4",
+            "label": "subscription fees",
+            "type": "MONEY",
+            "source_id": "E4",
+            "clause_id": "C3",
+            "metadata": {}
+        },
+        {
+            "id": "SPACY_2",
+            "label": "Clause C5",
+            "type": "FAC",
+            "source_id": "SPACY_2",
+            "clause_id": "C6",
+            "metadata": {}
+        },
+        {
+            "id": "E5",
+            "label": "Clause C5",
+            "type": "DEFINED_TERM",
+            "source_id": "E5",
+            "clause_id": "C6",
+            "metadata": {}
+        },
+        {
+            "id": "E6",
+            "label": "Clause C2",
+            "type": "DEFINED_TERM",
+            "source_id": "E6",
+            "clause_id": "C7",
+            "metadata": {}
+        },
+        {
+            "id": "E7",
+            "label": "User",
+            "type": "PARTY",
+            "source_id": "E7",
+            "clause_id": "C10",
+            "metadata": {}
+        }
+    ],
+    "edges": [
+        {
+            "id": "EDGE_C1_SPACY_1",
+            "source": "C1",
+            "target": "SPACY_1",
+            "relation": "HAS_ENTITY",
+            "confidence": 1.0,
+            "metadata": {}
+        },
+        {
+            "id": "EDGE_C1_E1",
+            "source": "C1",
+            "target": "E1",
+            "relation": "HAS_ENTITY",
+            "confidence": 1.0,
+            "metadata": {}
+        },
+        {
+            "id": "EDGE_C1_E2",
+            "source": "C1",
+            "target": "E2",
+            "relation": "HAS_ENTITY",
+            "confidence": 1.0,
+            "metadata": {}
+        },
+        {
+            "id": "EDGE_C1_E3",
+            "source": "C1",
+            "target": "E3",
+            "relation": "HAS_ENTITY",
+            "confidence": 1.0,
+            "metadata": {}
+        },
+        {
+            "id": "EDGE_C2_E1",
+            "source": "C2",
+            "target": "E1",
+            "relation": "HAS_ENTITY",
+            "confidence": 1.0,
+            "metadata": {}
+        },
+        {
+            "id": "EDGE_C2_E2",
+            "source": "C2",
+            "target": "E2",
+            "relation": "HAS_ENTITY",
+            "confidence": 1.0,
+            "metadata": {}
+        },
+        {
+            "id": "EDGE_C2_E3",
+            "source": "C2",
+            "target": "E3",
+            "relation": "HAS_ENTITY",
+            "confidence": 1.0,
+            "metadata": {}
+        },
+        {
+            "id": "EDGE_C3_REGEX_1",
+            "source": "C3",
+            "target": "REGEX_1",
+            "relation": "HAS_ENTITY",
+            "confidence": 1.0,
+            "metadata": {}
+        },
+        {
+            "id": "EDGE_C3_SPACY_1",
+            "source": "C3",
+            "target": "SPACY_1",
+            "relation": "HAS_ENTITY",
+            "confidence": 1.0,
+            "metadata": {}
+        },
+        {
+            "id": "EDGE_C3_E1",
+            "source": "C3",
+            "target": "E1",
+            "relation": "HAS_ENTITY",
+            "confidence": 1.0,
+            "metadata": {}
+        },
+        {
+            "id": "EDGE_C3_E2",
+            "source": "C3",
+            "target": "E2",
+            "relation": "HAS_ENTITY",
+            "confidence": 1.0,
+            "metadata": {}
+        },
+        {
+            "id": "EDGE_C3_E3",
+            "source": "C3",
+            "target": "E3",
+            "relation": "HAS_ENTITY",
+            "confidence": 1.0,
+            "metadata": {}
+        },
+        {
+            "id": "EDGE_C3_E4",
+            "source": "C3",
+            "target": "E4",
+            "relation": "HAS_ENTITY",
+            "confidence": 1.0,
+            "metadata": {}
+        },
+        {
+            "id": "EDGE_C4_SPACY_1",
+            "source": "C4",
+            "target": "SPACY_1",
+            "relation": "HAS_ENTITY",
+            "confidence": 1.0,
+            "metadata": {}
+        },
+        {
+            "id": "EDGE_C4_E1",
+            "source": "C4",
+            "target": "E1",
+            "relation": "HAS_ENTITY",
+            "confidence": 1.0,
+            "metadata": {}
+        },
+        {
+            "id": "EDGE_C4_E2",
+            "source": "C4",
+            "target": "E2",
+            "relation": "HAS_ENTITY",
+            "confidence": 1.0,
+            "metadata": {}
+        },
+        {
+            "id": "EDGE_C4_E3",
+            "source": "C4",
+            "target": "E3",
+            "relation": "HAS_ENTITY",
+            "confidence": 1.0,
+            "metadata": {}
+        },
+        {
+            "id": "EDGE_C5_SPACY_1",
+            "source": "C5",
+            "target": "SPACY_1",
+            "relation": "HAS_ENTITY",
+            "confidence": 1.0,
+            "metadata": {}
+        },
+        {
+            "id": "EDGE_C5_E1",
+            "source": "C5",
+            "target": "E1",
+            "relation": "HAS_ENTITY",
+            "confidence": 1.0,
+            "metadata": {}
+        },
+        {
+            "id": "EDGE_C5_E2",
+            "source": "C5",
+            "target": "E2",
+            "relation": "HAS_ENTITY",
+            "confidence": 1.0,
+            "metadata": {}
+        },
+        {
+            "id": "EDGE_C6_SPACY_1",
+            "source": "C6",
+            "target": "SPACY_1",
+            "relation": "HAS_ENTITY",
+            "confidence": 1.0,
+            "metadata": {}
+        },
+        {
+            "id": "EDGE_C6_SPACY_2",
+            "source": "C6",
+            "target": "SPACY_2",
+            "relation": "HAS_ENTITY",
+            "confidence": 1.0,
+            "metadata": {}
+        },
+        {
+            "id": "EDGE_C6_E1",
+            "source": "C6",
+            "target": "E1",
+            "relation": "HAS_ENTITY",
+            "confidence": 1.0,
+            "metadata": {}
+        },
+        {
+            "id": "EDGE_C6_E2",
+            "source": "C6",
+            "target": "E2",
+            "relation": "HAS_ENTITY",
+            "confidence": 1.0,
+            "metadata": {}
+        },
+        {
+            "id": "EDGE_C6_E3",
+            "source": "C6",
+            "target": "E3",
+            "relation": "HAS_ENTITY",
+            "confidence": 1.0,
+            "metadata": {}
+        },
+        {
+            "id": "EDGE_C6_E4",
+            "source": "C6",
+            "target": "E4",
+            "relation": "HAS_ENTITY",
+            "confidence": 1.0,
+            "metadata": {}
+        },
+        {
+            "id": "EDGE_C6_E5",
+            "source": "C6",
+            "target": "E5",
+            "relation": "HAS_ENTITY",
+            "confidence": 1.0,
+            "metadata": {}
+        },
+        {
+            "id": "EDGE_C7_E1",
+            "source": "C7",
+            "target": "E1",
+            "relation": "HAS_ENTITY",
+            "confidence": 1.0,
+            "metadata": {}
+        },
+        {
+            "id": "EDGE_C7_E2",
+            "source": "C7",
+            "target": "E2",
+            "relation": "HAS_ENTITY",
+            "confidence": 1.0,
+            "metadata": {}
+        },
+        {
+            "id": "EDGE_C7_E3",
+            "source": "C7",
+            "target": "E3",
+            "relation": "HAS_ENTITY",
+            "confidence": 1.0,
+            "metadata": {}
+        },
+        {
+            "id": "EDGE_C7_E4",
+            "source": "C7",
+            "target": "E4",
+            "relation": "HAS_ENTITY",
+            "confidence": 1.0,
+            "metadata": {}
+        },
+        {
+            "id": "EDGE_C7_E5",
+            "source": "C7",
+            "target": "E5",
+            "relation": "HAS_ENTITY",
+            "confidence": 1.0,
+            "metadata": {}
+        },
+        {
+            "id": "EDGE_C7_E6",
+            "source": "C7",
+            "target": "E6",
+            "relation": "HAS_ENTITY",
+            "confidence": 1.0,
+            "metadata": {}
+        },
+        {
+            "id": "EDGE_C8_E1",
+            "source": "C8",
+            "target": "E1",
+            "relation": "HAS_ENTITY",
+            "confidence": 1.0,
+            "metadata": {}
+        },
+        {
+            "id": "EDGE_C8_E2",
+            "source": "C8",
+            "target": "E2",
+            "relation": "HAS_ENTITY",
+            "confidence": 1.0,
+            "metadata": {}
+        },
+        {
+            "id": "EDGE_C8_E3",
+            "source": "C8",
+            "target": "E3",
+            "relation": "HAS_ENTITY",
+            "confidence": 1.0,
+            "metadata": {}
+        },
+        {
+            "id": "EDGE_C8_E4",
+            "source": "C8",
+            "target": "E4",
+            "relation": "HAS_ENTITY",
+            "confidence": 1.0,
+            "metadata": {}
+        },
+        {
+            "id": "EDGE_C9_SPACY_1",
+            "source": "C9",
+            "target": "SPACY_1",
+            "relation": "HAS_ENTITY",
+            "confidence": 1.0,
+            "metadata": {}
+        },
+        {
+            "id": "EDGE_C9_E1",
+            "source": "C9",
+            "target": "E1",
+            "relation": "HAS_ENTITY",
+            "confidence": 1.0,
+            "metadata": {}
+        },
+        {
+            "id": "EDGE_C9_E2",
+            "source": "C9",
+            "target": "E2",
+            "relation": "HAS_ENTITY",
+            "confidence": 1.0,
+            "metadata": {}
+        },
+        {
+            "id": "EDGE_C9_E3",
+            "source": "C9",
+            "target": "E3",
+            "relation": "HAS_ENTITY",
+            "confidence": 1.0,
+            "metadata": {}
+        },
+        {
+            "id": "EDGE_C9_E4",
+            "source": "C9",
+            "target": "E4",
+            "relation": "HAS_ENTITY",
+            "confidence": 1.0,
+            "metadata": {}
+        },
+        {
+            "id": "EDGE_C10_E1",
+            "source": "C10",
+            "target": "E1",
+            "relation": "HAS_ENTITY",
+            "confidence": 1.0,
+            "metadata": {}
+        },
+        {
+            "id": "EDGE_C10_E2",
+            "source": "C10",
+            "target": "E2",
+            "relation": "HAS_ENTITY",
+            "confidence": 1.0,
+            "metadata": {}
+        },
+        {
+            "id": "EDGE_C10_E3",
+            "source": "C10",
+            "target": "E3",
+            "relation": "HAS_ENTITY",
+            "confidence": 1.0,
+            "metadata": {}
+        },
+        {
+            "id": "EDGE_C10_E4",
+            "source": "C10",
+            "target": "E4",
+            "relation": "HAS_ENTITY",
+            "confidence": 1.0,
+            "metadata": {}
+        },
+        {
+            "id": "EDGE_C10_E5",
+            "source": "C10",
+            "target": "E5",
+            "relation": "HAS_ENTITY",
+            "confidence": 1.0,
+            "metadata": {}
+        },
+        {
+            "id": "EDGE_C10_E6",
+            "source": "C10",
+            "target": "E6",
+            "relation": "HAS_ENTITY",
+            "confidence": 1.0,
+            "metadata": {}
+        },
+        {
+            "id": "EDGE_C10_E7",
+            "source": "C10",
+            "target": "E7",
+            "relation": "HAS_ENTITY",
+            "confidence": 1.0,
+            "metadata": {}
+        },
+        {
+            "id": "DEP_C4_C5",
+            "source": "C4",
+            "target": "C5",
+            "relation": "DEPENDS_ON",
+            "confidence": 0.9,
+            "metadata": {}
+        },
+        {
+            "id": "DEP_C4_C6",
+            "source": "C4",
+            "target": "C6",
+            "relation": "DEPENDS_ON",
+            "confidence": 0.9,
+            "metadata": {}
+        },
+        {
+            "id": "DEP_C4_C7",
+            "source": "C4",
+            "target": "C7",
+            "relation": "DEPENDS_ON",
+            "confidence": 0.9,
+            "metadata": {}
+        },
+        {
+            "id": "DEP_C4_C8",
+            "source": "C4",
+            "target": "C8",
+            "relation": "DEPENDS_ON",
+            "confidence": 0.9,
+            "metadata": {}
+        },
+        {
+            "id": "DEP_C4_C9",
+            "source": "C4",
+            "target": "C9",
+            "relation": "DEPENDS_ON",
+            "confidence": 0.9,
+            "metadata": {}
+        },
+        {
+            "id": "DEP_C4_C10",
+            "source": "C4",
+            "target": "C10",
+            "relation": "DEPENDS_ON",
+            "confidence": 0.9,
+            "metadata": {}
+        },
+        {
+            "id": "DEP_C5_C6",
+            "source": "C5",
+            "target": "C6",
+            "relation": "REFERENCES",
+            "confidence": 0.9,
+            "metadata": {}
+        },
+        {
+            "id": "DEP_C5_C7",
+            "source": "C5",
+            "target": "C7",
+            "relation": "REFERENCES",
+            "confidence": 0.9,
+            "metadata": {}
+        },
+        {
+            "id": "DEP_C5_C8",
+            "source": "C5",
+            "target": "C8",
+            "relation": "REFERENCES",
+            "confidence": 0.9,
+            "metadata": {}
+        },
+        {
+            "id": "DEP_C5_C9",
+            "source": "C5",
+            "target": "C9",
+            "relation": "REFERENCES",
+            "confidence": 0.9,
+            "metadata": {}
+        },
+        {
+            "id": "DEP_C5_C10",
+            "source": "C5",
+            "target": "C10",
+            "relation": "REFERENCES",
+            "confidence": 0.9,
+            "metadata": {}
+        }
+    ],
+    "metadata": {}
+}

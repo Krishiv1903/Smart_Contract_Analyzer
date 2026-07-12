@@ -1,0 +1,63 @@
+{
+    "document_id": "DOC_001",
+    "title": "Sample Terms and Conditions",
+    "source": "https://example.com/terms",
+    "version": "1.0",
+    "metadata": {
+        "company": "Example Technologies Pvt Ltd",
+        "country": "India",
+        "language": "English"
+    },
+    "clauses": [
+        {
+            "id": "C1",
+            "section": "Acceptance",
+            "text": "By creating an account, the user agrees to these Terms and Conditions."
+        },
+        {
+            "id": "C2",
+            "section": "Account",
+            "text": "The user must provide accurate information while creating an account."
+        },
+        {
+            "id": "C3",
+            "section": "Payments",
+            "text": "Subscription fees must be paid within 30 days of receiving the invoice."
+        },
+        {
+            "id": "C4",
+            "section": "Refund",
+            "text": "Refunds are available only under the conditions described in Clause C3."
+        },
+        {
+            "id": "C5",
+            "section": "Privacy",
+            "text": "We collect personal information according to our Privacy Policy."
+        },
+        {
+            "id": "C6",
+            "section": "Data Sharing",
+            "text": "Personal information may be shared with third-party service providers as described in Clause C5."
+        },
+        {
+            "id": "C7",
+            "section": "Termination",
+            "text": "We may terminate your account if you violate these Terms or fail to comply with Clause C2."
+        },
+        {
+            "id": "C8",
+            "section": "User Obligations",
+            "text": "The user shall not misuse the service or attempt unauthorized access."
+        },
+        {
+            "id": "C9",
+            "section": "Limitation of Liability",
+            "text": "Our liability shall not exceed the amount paid by the user during the previous twelve months."
+        },
+        {
+            "id": "C10",
+            "section": "Changes",
+            "text": "We may modify these Terms at any time. Continued use of the service constitutes acceptance of the updated Terms."
+        }
+    ]
+}
